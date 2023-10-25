@@ -36,7 +36,7 @@ public class testController {
      */
     @GetMapping("/test1")
     public String test1(){
-        System.out.println("111");
+        System.out.println("222");
         return "success";
 
     }
